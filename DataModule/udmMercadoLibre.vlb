@@ -1,0 +1,10 @@
+﻿[dbMain]
+Coordinates=0,0,50,33
+
+[]
+Coordinates=151,1,82,33
+
+[tOrders]
+Coordinates=10,10,63,51
+Visible=True
+

@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\makeappx.exe" pack -f "C:\Users\DeGsoft\Source\repos\GeN21\Desktop\Windows\GeN-XE7\Win32\Release\GeN_@MapFile_.tmp" -p "C:\Users\DeGsoft\Source\repos\GeN21\Desktop\Windows\GeN-XE7\Win32\Release\GeN\bin\GeN.appx"
+pause

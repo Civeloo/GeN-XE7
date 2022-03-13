@@ -1,0 +1,4 @@
+"CODIGO";"NOMBRE";"TITULAR";"DIRECCION";"DIRECCIONCOMERCIAL";"PAIS";"PROVINCIA";"DEPARTAMENTO";"CIUDAD";"CP";"CODIGOAREA";"CELULAR";"TELEFONO";"EXTENCION";"FAX";"EMAIL";"TERMINOS";"VENDEDOR";"PRECIO";"SUSPENDIDO";"EXCENTO";"FECHAINGRESO";"LIMITECREDITO";"NOTAS";"DIASCREDITO";"DOCUMENTO";"CUIT";"IIBB";"RUBRO";"IVA";"MSN";"CONTACTO";"GERENTE";"BANCO";"CTACTE";"FORMADEPAGO";"VENCIMIENTO";"ZONA";"CTA";"CTANOMBRE";"CTATIPO";"CTAANTICIPO";"PAGARE"
+1;"proveedor";"";"Calle s/n";"";"";"Mendoza";"San Rafael";"Ciudad";"";"";"15";"4";"";"2627";"";"";;;"";"";;;;;"";"";"";"";"RI";"";"";"";"";"";;;;;76;13;36;""
+2;"impuestos y servicios";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";;;"";"";;;;;"";"";"";"";"";"";"";"";"";"";;;;;88;88;89;""
+3;"proveedor3";"";"Calle s/n";"";"";"Mendoza";"San Rafael";"Ciudad";"";"";"15";"4";"";"2627";"";"";;;"";"";;;;;"";"";"";"";"RI";"";"";"";"";"";;;;;76;13;36;""""

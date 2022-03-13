@@ -1,0 +1,1 @@
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "C:\Program Files (x86)\Civeloo\GeN\bin\GeN.exe" /t REG_SZ /d "~RUNASADMIN" /f

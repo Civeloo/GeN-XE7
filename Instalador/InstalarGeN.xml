@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT xml:lang="es-ES" OVERALL_RESULT="WARNING" VERSION="10.0.18362.1" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Desktop" OSVERSION="6.1.7601.65536" OS="Microsoft Windows 7 Home Basic " PER_USER_APPLICATION="FALSE" PARTIAL_RUN="FALSE" LCID="3082" X64_ONLY="FALSE" VALIDATION_TYPE="UI" ReportGenerationTime="17/06/2019 20:06:57" ID="ba81f59edeff88f49cce713984abda3f">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Prueba de instalación limpia y reversible" RATIONALE="Las instalaciones limpias y reversibles permiten a los usuarios administrar (implementar y quitar) correctamente las aplicaciones de su sistema.">
+      <TEST INDEX="12" NAME="Quite todos los archivos y carpetas no compartidos" DESCRIPTION="Todos los programas recién instalados se quitaron correctamente." EXECUTIONTIME="00h:00m:04s.16ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="8" NAME="No forzar un reinicio inmediato durante la instalación" DESCRIPTION="Los usuarios deben tener la oportunidad de reiniciar posteriormente." EXECUTIONTIME="00h:00m:04s.61ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="9" NAME="No forzar un reinicio inmediato durante la desinstalación" DESCRIPTION="Los usuarios deben tener la oportunidad de reiniciar posteriormente." EXECUTIONTIME="00h:00m:05s.75ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="5" NAME="Escribir valores apropiados de Agregar o quitar programas" DESCRIPTION="Escribir valores apropiados de Agregar o quitar programas." EXECUTIONTIME="00h:00m:02s.02ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="34" NAME="Comprobación del Registro de usuario único" DESCRIPTION="Comprueba si se han escrito entradas no válidas en el Registro durante la instalación." EXECUTIONTIME="00h:00m:03s.07ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="2" TITLE="Prueba de instalación en carpetas correctas" RATIONALE="Windows proporciona ubicaciones específicas en el sistema de archivos para almacenar programas y componentes de software, datos de aplicaciones compartidas y datos de aplicaciones específicos de un usuario.">
+      <TEST INDEX="7" NAME="Instalar en Archivos de programa" DESCRIPTION="Descripción de Instalar en Archivos de programa." EXECUTIONTIME="00h:00m:03s.43ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="3" NAME="Escribir en las carpetas %WINDIR% o %SystemDrive%" DESCRIPTION="Escribir en las carpetas %WINDIR% o %SystemDrive%." EXECUTIONTIME="00h:00m:03s.36ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="3" TITLE="Prueba de archivos firmados digitalmente" RATIONALE="Las firmas digitales con Authenticode permiten a los usuarios tener la certeza de que el software es original. También permiten detectar si se ha alterado un archivo; por ejemplo, si está infectado con un virus.">
+      <TEST INDEX="2" NAME="Instalar controlador firmado y archivos ejecutables" DESCRIPTION="Instalar controlador firmado y archivos ejecutables." EXECUTIONTIME="00h:00m:03s.31ms" OPTIONAL="FALSE">
+        <MESSAGES>
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\intl\fbintl.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\msvcr80.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\msvcp80.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\icuuc30.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\icuin30.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\icudt30.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\ib_util.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\gds32.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\db\fbembed.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\udf\ib_udf.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\udf\fbudf.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\intl\fbintl.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\msvcr80.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\msvcp80.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\icuuc30.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\icuin30.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\icudt30.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\ib_util.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\GeN.exe no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\gds32.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\bin\fbembed.dll no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo que no es de controlador C:\Program Files (x86)\Civeloo\GeN\unins000.exe no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+          <MESSAGE TEXT="El archivo del instalador de la aplicación principal C:\Users\DeGsoft\Documents\GitHub\GeN-XE7\Instalador\InstalarGeN.exe no tiene una firma válida, ya sea integrada o mediante un archivo de catálogo." />
+        </MESSAGES>
+        <RESULT><![CDATA[WARNING]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="4" TITLE="Prueba de compatibilidad de Windows x64" RATIONALE="Para mantener la compatibilidad con las versiones de 64 bits de Windows, es necesario que las aplicaciones admitan de forma nativa 64 bits o, como mínimo, que las aplicaciones para Windows de 32 bits funcionen perfectamente en 64 bits.">
+      <TEST INDEX="4" NAME="Instalar archivos específicos y controladores de la plataforma" DESCRIPTION="Instalar archivos específicos y controladores de la plataforma." EXECUTIONTIME="00h:00m:02s.44ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="5" TITLE="Prueba de comprobación de la versión del SO" RATIONALE="Las aplicaciones no deben realizar comprobaciones de coincidencia de versiones (== 5.1). Si necesita una característica concreta, compruebe si está disponible. Si necesita Windows XP, busque Windows XP, o una versión posterior (&gt;= 5.1), De esta forma, su código de detección seguirá funcionando en las futuras versiones de Windows. Los instaladores de controladores y los módulos de desinstalación no deben comprobar la versión de SO.">
+      <TEST INDEX="6" NAME="Comprobación de la versión correcta del SO" DESCRIPTION="Realizar la comprobación de la versión correcta del SO en la instalación." EXECUTIONTIME="00h:00m:04s.60ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="6" TITLE="Prueba de control de cuentas de usuario (UAC)" RATIONALE="La mayoría de las aplicaciones no requieren privilegios de administrador en tiempo de ejecución y debe ser posible ejecutarlas como usuario estándar. Las aplicaciones de Windows deben tener un manifiesto (incrustado o externo) para definar su nivel de ejecución y que indique al sistema operativo los privilegios necesarios para ejecutar la aplicación.">
+      <TEST INDEX="11" NAME="Nivel de ejecución de Control de cuentas de usuario" DESCRIPTION="Las aplicaciones Windows® deben tener un manifiesto (incrustado o externo) para definir su nivel de ejecución y que indique al sistema operativo los privilegios necesarios para ejecutar la aplicación." EXECUTIONTIME="00h:00m:02s.90ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="7" TITLE="Ajustarse a mensajes de Administrador de reinicio del sistema" RATIONALE="En un apagado crítico, las aplicaciones que devuelvan FALSE a WM_QUERYENDSESSION se enviarán WM_ENDSESSION y se cerrarán, mientras que aquellas que superen el tiempo de espera en respuesta a WM_QUERYENDSESSION se terminarán.">
+      <TEST INDEX="1" NAME="No bloquear reinicio" DESCRIPTION="No bloquear reinicio." EXECUTIONTIME="00h:01m:06s.15ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="8" TITLE="Prueba en modo seguro" RATIONALE="De manera predeterminada, la mayoría de los controladores y servicios que no vinieron preinstalados con Windows no se inician en modo seguro. Deben permanecer deshabilitadas, a menos que sean necesarias para operaciones básicas del sistema o con fines de diagnóstico y recuperación.">
+      <TEST INDEX="10" NAME="No cargar servicios y controladores en modo seguro" DESCRIPTION="De manera predeterminada, la mayoría de los controladores y servicios que no vinieron preinstalados con Windows no se inician en modo seguro. Deben permanecer deshabilitadas, a menos que sean necesarias para operaciones básicas del sistema o con fines de diagnóstico y recuperación." EXECUTIONTIME="00h:00m:06s.71ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="9" TITLE="Prueba de sesiones multiusuario" RATIONALE="Los usuarios de Windows deben poder ejecutar sesiones simultáneas sin interrupciones ni conflictos. Las aplicaciones deben garantizar que cuando se ejecutan en varias sesiones, locales o remotas, la funcionalidad normal de la aplicación no resulta afectada. La configuración y los archivos de datos de las aplicaciones no deben persistir de un usuario a otro. La privacidad y preferencias de un usuario deben aislarse a la sesión del usuario.">
+      <TEST INDEX="16" NAME="Registros de comprobación multiusuario" DESCRIPTION="Multiusuario comprueba los registros de App-Verifier." EXECUTIONTIME="00h:00m:04s.81ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="15" NAME="Comprobación del Registro de multiusuario" DESCRIPTION="Comprueba si se han escrito entradas no válidas en el Registro durante la instalación." EXECUTIONTIME="00h:00m:03s.09ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="13" NAME="No escribir en la carpeta 'Usuarios'" DESCRIPTION="No escribir en la carpeta 'Usuarios'." EXECUTIONTIME="00h:00m:02s.81ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="14" TITLE="Prueba de características de seguridad de Windows" RATIONALE="Las aplicaciones deben participar en las características de seguridad de Windows.">
+      <TEST INDEX="33" NAME="Analizador de archivos binarios" DESCRIPTION="Análisis de las características de seguridad habilitadas en archivos binarios" EXECUTIONTIME="00h:00m:02s.99ms" OPTIONAL="FALSE">
+        <MESSAGES>
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\intl\fbintl.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\intl\fbintl.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\msvcr80.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\msvcr80.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\msvcp80.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\msvcp80.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\icuuc30.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\icuuc30.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\icuin30.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\icuin30.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\icudt30.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\icudt30.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\ib_util.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\ib_util.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\gds32.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\gds32.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\fbembed.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\db\fbembed.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\udf\ib_udf.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\udf\ib_udf.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\udf\fbudf.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\udf\fbudf.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\intl\fbintl.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\intl\fbintl.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\msvcr80.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\msvcr80.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\msvcp80.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\msvcp80.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\icuuc30.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\icuuc30.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\icuin30.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\icuin30.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\icudt30.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\icudt30.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\ib_util.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\ib_util.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\GeN.exe no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\GeN.exe no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\GeN.exe no ha superado la comprobación de SafeSEHCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\gds32.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\gds32.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\fbembed.dll no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\bin\fbembed.dll no ha superado la comprobación de NXCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\unins000.exe no ha superado la comprobación de DBCheck." />
+          <MESSAGE TEXT="El archivo C:\Program Files (x86)\Civeloo\GeN\unins000.exe no ha superado la comprobación de SafeSEHCheck." />
+        </MESSAGES>
+        <RESULT><![CDATA[WARNING]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="GeN versión 201906151826" Type="Application" Source="AddRemoveProgram" Publisher="Civeloo" Version="201906151826" Language="65535" InstallDate="06/17/2019 00:00:00" OSVersionAtInstallTime="6.1.1.7601" RootDirPath="C:\Program Files (x86)\Civeloo\GeN\" Id="0000eea1edadadc96fe6578e3a71d55f8cbe0000ffff" HiddenArp="false">
+        <Indicators>
+          <AddRemoveProgramIndicators>
+            <AddRemoveProgram RegistryKeyPath="HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{525082F8-F46A-4C65-AAE4-20DDAB886016}_is1" UninstallString="&quot;C:\Program Files (x86)\Civeloo\GeN\unins000.exe&quot;" DisplayName="GeN versión 201906151826" CompanyName="Civeloo" ProductVersion="201906151826" ActualInstallLocation="C:\Program Files (x86)\Civeloo\GeN\" Language="65535" />
+          </AddRemoveProgramIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" />
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DIGITAL_SIGNING>
+    <MAIN_INSTALLER SHA_1_DIGEST="255DDB9648B8BDD088ECFE076542429ADE41CCFC" SHA_256_DIGEST="4AE07F8DF37C7259C4129F379F0EC750249E3C0A37D78FC7628D5D5D7E6790E0" SHA_384_DIGEST="60FB0FE3E754879249007890A22BE62E5760D3EA7DA586CBA6BAB6DA5D45D6CF7D7B4254D008CCB711F41BAA29E32004" SHA_512_DIGEST="3E4A292CF180AF8CF935C55D0C82839AD6029A999CFE5918C5F000D17F11DBD23E9686573F2FF4DC69DBCFAD290024386DE4EA2652480A636FF30E6D3B94B095">
+      <CERTIFICATE_INFO>
+        <ARCHIVED>FALSE</ARCHIVED>
+        <CERT_SHA1_HASH>7253D41903506DC4488A9F4816185B29777CED0A</CERT_SHA1_HASH>
+        <EXPIRY_DATE>07/06/2019 19:12:19</EXPIRY_DATE>
+        <FORMAT>X509</FORMAT>
+        <FRIENDLY_NAME />
+        <HASH_CODE>1918096409</HASH_CODE>
+        <ISSUER>E=consultas@civeloo.com, CN=CIVELOO, OU=Software, O=Civeloo, L=Puerto Madryn, S=Chubut, C=AR</ISSUER>
+        <KEY_ALGORITHM>1.2.840.113549.1.1.1</KEY_ALGORITHM>
+        <KEY_ALGORITHM_PARAMETERS>0500</KEY_ALGORITHM_PARAMETERS>
+        <PUBLIC_KEY>3082010A0282010100BA36A68B3684DA7E77EC7A8571563E2672D727E7CAC1D1799845B27A0DF3B3BD09520E65C0BCCF4ED81983C9676E3FF93B1442681604666ABDD8337891407B439ED4FFB76780875F5502BFCEFE78B9AD54BDBBE59F6E07052678D8D95FB363D50B617FD53EBD3613F0096991A48D57E152728F223DE94DB3AAA9A701E90CE10EB3B4A969BFAC8792745EFFC2385BF39E48B52F233D28972035006530BA2888C347352BE0A7DF32F6B210617E9B5D0580805FA1C6985C1277B008EF8A3FE6242A3DD0EFC47413577726A6386620D1D4EE0D1E267AAA0D1F2DCA103ACDB74F350BA0ED7C0217211BE7C04F00919D397512032C20596AA30862CEF4F360812B183B0203010001</PUBLIC_KEY>
+        <SIGNATURE_ALGORITHM>sha256RSA</SIGNATURE_ALGORITHM>
+        <SUBJECT>E=consultas@civeloo.com, CN=CIVELOO, OU=Software, O=Civeloo, L=Puerto Madryn, S=Chubut, C=AR</SUBJECT>
+        <SERIAL_NUMBER>708C9B03CAF502C85A092561008C9ABEE0242CBD</SERIAL_NUMBER>
+        <THUMBPRINT>7253D41903506DC4488A9F4816185B29777CED0A</THUMBPRINT>
+        <VALID_DATE>06/06/2019 19:12:19</VALID_DATE>
+        <VERSION>3</VERSION>
+        <CERT_BASE16>30820409308202F1A0030201020214708C9B03CAF502C85A092561008C9ABEE0242CBD300D06092A864886F70D01010B0500308193310B3009060355040613024152310F300D06035504080C064368756275743116301406035504070C0D50756572746F204D616472796E3110300E060355040A0C07436976656C6F6F3111300F060355040B0C08536F6674776172653110300E06035504030C07434956454C4F4F3124302206092A864886F70D0109011615636F6E73756C74617340636976656C6F6F2E636F6D301E170D3139303630363232313231395A170D3139303730363232313231395A308193310B3009060355040613024152310F300D06035504080C064368756275743116301406035504070C0D50756572746F204D616472796E3110300E060355040A0C07436976656C6F6F3111300F060355040B0C08536F6674776172653110300E06035504030C07434956454C4F4F3124302206092A864886F70D0109011615636F6E73756C74617340636976656C6F6F2E636F6D30820122300D06092A864886F70D01010105000382010F003082010A0282010100BA36A68B3684DA7E77EC7A8571563E2672D727E7CAC1D1799845B27A0DF3B3BD09520E65C0BCCF4ED81983C9676E3FF93B1442681604666ABDD8337891407B439ED4FFB76780875F5502BFCEFE78B9AD54BDBBE59F6E07052678D8D95FB363D50B617FD53EBD3613F0096991A48D57E152728F223DE94DB3AAA9A701E90CE10EB3B4A969BFAC8792745EFFC2385BF39E48B52F233D28972035006530BA2888C347352BE0A7DF32F6B210617E9B5D0580805FA1C6985C1277B008EF8A3FE6242A3DD0EFC47413577726A6386620D1D4EE0D1E267AAA0D1F2DCA103ACDB74F350BA0ED7C0217211BE7C04F00919D397512032C20596AA30862CEF4F360812B183B0203010001A3533051301D0603551D0E0416041402C2C0BCD23CFC906F2A203A98261AA0DA0695CE301F0603551D2304183016801402C2C0BCD23CFC906F2A203A98261AA0DA0695CE300F0603551D130101FF040530030101FF300D06092A864886F70D01010B050003820101000C3AFF27DD3590CF55EECEA6640CE4CC92D729268773AD6EA10ED5BAB4CA84D1FC073B20A0DF746303B829421F35D7D94B9F365F2E1EC7F121EA79266BC7B923A1D53BA7294826E3C14176D359B74591E32BD0CC0B05647E44592D78A4C3E53695796B24BFAB60F2E10149B52240842955489DF4C867B217D4D462DA4A2C54B4A11C741C9E7CF0E5D05161D0D4EB081AFB62B8BAD74DD7A33609A0B9B863DB5BB828F7A663EC6F109E3646BFED99FC49D18B35B48AED2DA4E0E1251AE1A3403A969C55C627B4BE08A565700F53816BDE4EF70AE588459BEE1C6AB6F5C3EE637AE250FF262456DD0C9131F6A9C068B98E5E82896D2366AF57E819B2E95ED2409E</CERT_BASE16>
+        <CHAIN_ELEMENT>
+          <ARCHIVED>FALSE</ARCHIVED>
+          <CERT_SHA1_HASH>7253D41903506DC4488A9F4816185B29777CED0A</CERT_SHA1_HASH>
+          <EXPIRY_DATE>07/06/2019 19:12:19</EXPIRY_DATE>
+          <FORMAT>X509</FORMAT>
+          <FRIENDLY_NAME />
+          <HASH_CODE>1918096409</HASH_CODE>
+          <ISSUER>E=consultas@civeloo.com, CN=CIVELOO, OU=Software, O=Civeloo, L=Puerto Madryn, S=Chubut, C=AR</ISSUER>
+          <KEY_ALGORITHM>1.2.840.113549.1.1.1</KEY_ALGORITHM>
+          <KEY_ALGORITHM_PARAMETERS>0500</KEY_ALGORITHM_PARAMETERS>
+          <PUBLIC_KEY>3082010A0282010100BA36A68B3684DA7E77EC7A8571563E2672D727E7CAC1D1799845B27A0DF3B3BD09520E65C0BCCF4ED81983C9676E3FF93B1442681604666ABDD8337891407B439ED4FFB76780875F5502BFCEFE78B9AD54BDBBE59F6E07052678D8D95FB363D50B617FD53EBD3613F0096991A48D57E152728F223DE94DB3AAA9A701E90CE10EB3B4A969BFAC8792745EFFC2385BF39E48B52F233D28972035006530BA2888C347352BE0A7DF32F6B210617E9B5D0580805FA1C6985C1277B008EF8A3FE6242A3DD0EFC47413577726A6386620D1D4EE0D1E267AAA0D1F2DCA103ACDB74F350BA0ED7C0217211BE7C04F00919D397512032C20596AA30862CEF4F360812B183B0203010001</PUBLIC_KEY>
+          <SIGNATURE_ALGORITHM>sha256RSA</SIGNATURE_ALGORITHM>
+          <SUBJECT>E=consultas@civeloo.com, CN=CIVELOO, OU=Software, O=Civeloo, L=Puerto Madryn, S=Chubut, C=AR</SUBJECT>
+          <SERIAL_NUMBER>708C9B03CAF502C85A092561008C9ABEE0242CBD</SERIAL_NUMBER>
+          <THUMBPRINT>7253D41903506DC4488A9F4816185B29777CED0A</THUMBPRINT>
+          <VALID_DATE>06/06/2019 19:12:19</VALID_DATE>
+          <VERSION>3</VERSION>
+          <CERT_BASE16>30820409308202F1A0030201020214708C9B03CAF502C85A092561008C9ABEE0242CBD300D06092A864886F70D01010B0500308193310B3009060355040613024152310F300D06035504080C064368756275743116301406035504070C0D50756572746F204D616472796E3110300E060355040A0C07436976656C6F6F3111300F060355040B0C08536F6674776172653110300E06035504030C07434956454C4F4F3124302206092A864886F70D0109011615636F6E73756C74617340636976656C6F6F2E636F6D301E170D3139303630363232313231395A170D3139303730363232313231395A308193310B3009060355040613024152310F300D06035504080C064368756275743116301406035504070C0D50756572746F204D616472796E3110300E060355040A0C07436976656C6F6F3111300F060355040B0C08536F6674776172653110300E06035504030C07434956454C4F4F3124302206092A864886F70D0109011615636F6E73756C74617340636976656C6F6F2E636F6D30820122300D06092A864886F70D01010105000382010F003082010A0282010100BA36A68B3684DA7E77EC7A8571563E2672D727E7CAC1D1799845B27A0DF3B3BD09520E65C0BCCF4ED81983C9676E3FF93B1442681604666ABDD8337891407B439ED4FFB76780875F5502BFCEFE78B9AD54BDBBE59F6E07052678D8D95FB363D50B617FD53EBD3613F0096991A48D57E152728F223DE94DB3AAA9A701E90CE10EB3B4A969BFAC8792745EFFC2385BF39E48B52F233D28972035006530BA2888C347352BE0A7DF32F6B210617E9B5D0580805FA1C6985C1277B008EF8A3FE6242A3DD0EFC47413577726A6386620D1D4EE0D1E267AAA0D1F2DCA103ACDB74F350BA0ED7C0217211BE7C04F00919D397512032C20596AA30862CEF4F360812B183B0203010001A3533051301D0603551D0E0416041402C2C0BCD23CFC906F2A203A98261AA0DA0695CE301F0603551D2304183016801402C2C0BCD23CFC906F2A203A98261AA0DA0695CE300F0603551D130101FF040530030101FF300D06092A864886F70D01010B050003820101000C3AFF27DD3590CF55EECEA6640CE4CC92D729268773AD6EA10ED5BAB4CA84D1FC073B20A0DF746303B829421F35D7D94B9F365F2E1EC7F121EA79266BC7B923A1D53BA7294826E3C14176D359B74591E32BD0CC0B05647E44592D78A4C3E53695796B24BFAB60F2E10149B52240842955489DF4C867B217D4D462DA4A2C54B4A11C741C9E7CF0E5D05161D0D4EB081AFB62B8BAD74DD7A33609A0B9B863DB5BB828F7A663EC6F109E3646BFED99FC49D18B35B48AED2DA4E0E1251AE1A3403A969C55C627B4BE08A565700F53816BDE4EF70AE588459BEE1C6AB6F5C3EE637AE250FF262456DD0C9131F6A9C068B98E5E82896D2366AF57E819B2E95ED2409E</CERT_BASE16>
+        </CHAIN_ELEMENT>
+      </CERTIFICATE_INFO>
+    </MAIN_INSTALLER>
+  </DIGITAL_SIGNING>
+  <DEPENDENCY_INFORMATION />
+</REPORT>
